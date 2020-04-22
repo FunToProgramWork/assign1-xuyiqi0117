@@ -17,12 +17,12 @@ void random(){//make sure soldier and robot randomly on different layers, if not
 
 void setup() {
   size(640, 480, P2D);//set canvas
-  bg = loadImage("bg.jpg");//import pictures
-  groundhog = loadImage("groundhog.png");
-  life = loadImage("life.png");
-  robot = loadImage("robot.png");  
-  soil = loadImage("soil.png");
-  soldier = loadImage("soldier.png");
+  bg = loadImage("img/bg.jpg");//import pictures
+  groundhog = loadImage("img/groundhog.png");
+  life = loadImage("img/life.png");
+  robot = loadImage("img/robot.png");  
+  soil = loadImage("img/soil.png");
+  soldier = loadImage("img/soldier.png");
   
   s = 0;//soldier's initial abscissa
   random();//get random value
